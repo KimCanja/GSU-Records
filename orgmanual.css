@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+  
+
+.header {
+    width: 100%;
+    height: 177px;
+    background: #00A7D4;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.sidebar {
+    width: 401px;
+    height: 100%;
+    position: absolute;
+    top: 126px;
+    left: 0;
+    background: rgba(177, 219, 252, 0.3);
+}
+
+.content-box {
+    width: 1409px;
+    height: 772px;
+    position: absolute;
+    top: 272px;
+    left: 461px;
+    background: rgba(217, 217, 217, 0);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+/*button*/ 
+.image-container {
+    position: relative;
+    width: 80px; /* Adjust to your image's actual width */
+    height: 50px;  /* Adjust to your image's actual height */
+    top: 279px;
+    left: 75%;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .overlay-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .file-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: rgba(236, 228, 228, 0);
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+/*button*/  
+
+.nav-text {
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    position: absolute;
+    top: 45px;
+    left: 1555px;
+}
+
+.record-title {
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    top: 293px;
+    left: 513px;
+}
+
+.search {
+    position: absolute;
+    top: 368px;
+    left: 561px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.table-header, .table-data {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.table-header {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.table-data {
+    font-size: 20px;
+    color: black;
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.48);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.line {
+    position: absolute;
+    height: 0;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+}
